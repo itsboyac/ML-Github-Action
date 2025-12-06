@@ -30,13 +30,6 @@ Since the GitHub Action spins up a fresh, blank runner every time, it doesn't ha
 
 ---
 
-## Project Structure
-
-- **`.github/workflows/main.yml`**: The CI/CD configuration that defines the MLOps pipeline.
-- **`train.py`**: The script that loads data, cleans it, trains the Random Forest model, and saves metrics.
-- **`requirements.txt`**: List of dependencies for the environment.
-- **`kaggle-data/`**: Directory containing the `train.csv` dataset.
-
 ## How the Pipeline Works (`train.py`)
 When the GitHub Action triggers these steps, `train.py` will execute:
 1.  **Data Loading**: Reads `train.csv` and removes irrelevant ID columns.
