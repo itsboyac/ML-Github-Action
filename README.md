@@ -14,7 +14,7 @@ The `.yaml` file serves as the **blueprint** for automation. We create it to def
 - It spins up a temporary computer (called a **runner**, usually `ubuntu-latest`).
 - It follows the instructions in your YAML file step-by-step to check your code.
 
-### 3. Why is this useful here? (Continuous Machine Learning)
+### 3. Why is this useful here?
 This is useful for three reasons:
 *   **Automation**: We don't have to manually run `train.py` on our laptops every time we change a feature. The system does it for us.
 *   **Consistency**: The code runs in a clean, isolated environment. If it works there, we know it's not just "working on my machine.(locally)"
