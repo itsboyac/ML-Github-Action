@@ -205,3 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+bank_pipeline.skops
+model_results.png
+metrics.txt
