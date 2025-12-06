@@ -9,18 +9,10 @@ The repository contains the following key files:
 - **`train.py`**: The main script that executes the end-to-end ML pipeline.
 - **`requirements.txt`**: List of Python dependencies required to run the project.
 - **`kaggle-data/`**: Directory containing the dataset (`train.csv`).
-- **`README.md`**: This documentation file.
 
 ## Setup and Installation
-
-1.  **Clone the repository** (if you haven't already):
-    ```bash
-    git clone <repository-url>
-    cd ML-Github-Action
-    ```
-
-2.  **Install dependencies**:
-    Ensure you have Python installed. It is recommended to use a virtual environment.
+ **Install dependencies**:
+    Using a virtual environment.
     ```bash
     pip install -r requirements.txt
     ```
@@ -33,7 +25,7 @@ To run the machine learning pipeline, execute the `train.py` script:
 python train.py
 ```
 
-Upon successful execution, the script will:
+When successfully executed, the script will:
 - Display the model's Accuracy and F1 Score in the console.
 - Generate a confusion matrix plot saved as `model_results.png`.
 - Save the evaluation metrics to text file `metrics.txt`.
