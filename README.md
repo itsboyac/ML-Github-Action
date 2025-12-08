@@ -1,6 +1,8 @@
 # Bank Churn Prediction with GitHub Action 
 
 This project is to predict bank customer churn. Beyond just the code, we will use **GitHub Actions** to automate the training and evaluation process.
+## Source
+You can refer to this amazing video for concept reference: https://www.youtube.com/watch?v=Xwpi0ITkL3U
 
 ## GitHub Actions & MLOps Explanation
 
