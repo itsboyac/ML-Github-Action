@@ -1,12 +1,12 @@
-# Bank Churn Prediction with MLOps
+# Bank Churn Prediction with GitHub Action 
 
-This project implements a complete Machine Learning pipeline to predict bank customer churn. Beyond just the code, we will use **GitHub Actions** to automate the training and evaluation process, following **MLOps (Machine Learning Operations)** practices.
+This project is to predict bank customer churn. Beyond just the code, we will use **GitHub Actions** to automate the training and evaluation process.
 
 ## GitHub Actions & MLOps Explanation
 
 ### 1. Why create a YAML file? (`.github/workflows/main.yml`)
 The `.yaml` file serves as the **blueprint** for automation. We create it to define a "Workflow" that GitHub's servers can understand. 
-- **What it does**: It tells GitHub *when* to run (e.g., on every "push" or "pull request") and *what* to do (e.g., "install python", "run train.py").
+- **What it does**: It tells GitHub *when* to run (for example, on every "push" or "pull request") and *what* to do (for instance, "install python", "run train.py").
 - **Why it's needed**: Without this file, GitHub is just a place to store code. With it, GitHub becomes an automation server that can test and validate our work.
 
 ### 2. What does a GitHub Action do?
